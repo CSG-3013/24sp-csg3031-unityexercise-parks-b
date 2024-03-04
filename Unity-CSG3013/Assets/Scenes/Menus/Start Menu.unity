@@ -368,15 +368,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4292908507
+  m_fontColor: {r: 0.85766894, g: 0.5835262, b: 0.8773585, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -393,15 +393,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 23
+  m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -581,10 +581,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1873613368}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.9779592}
-  m_AnchorMax: {x: 0.5, y: 0.9779592}
-  m_AnchoredPosition: {x: -26, y: -272}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0.33447918, y: 0.58500004}
+  m_AnchorMax: {x: 0.674, y: 0.7654455}
+  m_AnchoredPosition: {x: -8.26001, y: 37}
+  m_SizeDelta: {x: -175.4653, y: -75.2937}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1296534961
 MonoBehaviour:
@@ -633,7 +633,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 67.5
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -908,6 +908,7 @@ GameObject:
   - component: {fileID: 1713974458}
   - component: {fileID: 1713974457}
   - component: {fileID: 1713974456}
+  - component: {fileID: 1713974460}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -924,16 +925,16 @@ RectTransform:
   m_GameObject: {fileID: 1713974454}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 538069797}
   m_Father: {fileID: 1873613368}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.57600003}
-  m_AnchorMax: {x: 0.5, y: 0.57600003}
-  m_AnchoredPosition: {x: 0, y: -0.099998474}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0.4385625, y: 0.51474243}
+  m_AnchorMax: {x: 0.5624792, y: 0.5575546}
+  m_AnchoredPosition: {x: -0.61997986, y: 0}
+  m_SizeDelta: {x: -79, y: -16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1713974456
 MonoBehaviour:
@@ -994,7 +995,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1873613369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Unity.VisualScripting.EventMachine`2[[Unity.VisualScripting.FlowGraph,
           Unity.VisualScripting.Flow
         m_MethodName: TriggerUnityEvent
@@ -1020,7 +1021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8679245, g: 0.781858, b: 0.70825917, a: 1}
+  m_Color: {r: 0.3301887, g: 0.27793476, b: 0.23518157, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1045,6 +1046,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713974454}
   m_CullTransparentMesh: 1
+--- !u!114 &1713974460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713974454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 59bc1e67b75b7484a8db78b671730537, type: 2}
 --- !u!1 &1873613367
 GameObject:
   m_ObjectHideFlags: 0
@@ -1058,9 +1075,8 @@ GameObject:
   - component: {fileID: 1873613372}
   - component: {fileID: 1873613371}
   - component: {fileID: 1873613370}
-  - component: {fileID: 1873613369}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: UI_Menu_CVNS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1088,22 +1104,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1873613369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1873613367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 59bc1e67b75b7484a8db78b671730537, type: 2}
 --- !u!114 &1873613370
 MonoBehaviour:
   m_ObjectHideFlags: 0
