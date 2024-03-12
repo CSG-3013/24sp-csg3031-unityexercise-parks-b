@@ -7,6 +7,7 @@ TagManager:
   - CinemachineTarget
   - TrashBag
   - PushableObject
+  - Pages
   layers:
   - Default
   - TransparentFX
